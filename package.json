@@ -1,0 +1,35 @@
+{
+  "name": "hiringx_io_clone_backend",
+  "version": "1.0.0",
+  "description": "Job posting site backend using node.js,express.js and mongoose",
+  "keywords": [
+    "node",
+    "express",
+    "mongoose",
+    "bcrypt",
+    "jwt"
+  ],
+  "license": "ISC",
+  "author": "Manish Sahani",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=./.env ./src/server.js",
+    "dev": "node --watch --env-file=./.env ./src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.6.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.2",
+    "say": "^0.16.0"
+  }
+}
